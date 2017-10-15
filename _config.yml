@@ -10,8 +10,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings
 author: An Do Young # add your name
-author-pic: adam-face.jpg
-about-author: My name is Adam Neilson. I’m a full-time adventure travel blogger and photographer who’s been exploring the world for over 2 years.
+author-pic: andoyoung-face.jpg
+about-author: 개발자입니다.
 
 # Contact links
 email: jispoop@gmail.com # Add your Email address
@@ -34,7 +34,7 @@ discus_identifier: mr-brown # Add your discus identifier
 analytics: # Google Analytics
 
 # Paginate
-paginate: 6
+paginate: 10
 paginate_path: /page:num/
 
 # Build settings
