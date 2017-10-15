@@ -11,7 +11,7 @@ author: An Do Young # Add name author (optional)
 # 앵귤러 src 파일 트리 구조
 ---
 ## 기본적인 angular cli 로 생성한 앵귤러 프로젝트
-<img src="./../assets/img/angular-trees/angular-src-file-tree.PNG">
+<img src="./../assets/img/angular-trees/angular-src-file-tree.png">
 
 ### app 폴더
 1. app.component.css 파일
@@ -38,7 +38,7 @@ export class AppComponent {
 5. app.module.ts 파일
     - 모듈을 생성할때는 기본적으로 @angular/core에 있는 NgModule를 import 하여 생성한다.
      - 생성한 모듈은 export를 이용하여 밖으로 내보낸다.
-     
+
 ``` javascript
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
