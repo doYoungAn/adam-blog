@@ -22,6 +22,7 @@ author: An Do Young # Add name author (optional)
 4. app.component.ts 파일
     - 컴포넌트가 정의되는 파일이다.
     - 앵귤러 프로젝트를 생성한다면 해당 컴포넌트가 메인 컴포넌트의 역할을 한다.
+
 ``` javascript
 import { Component } from '@angular/core';
 
@@ -37,6 +38,7 @@ export class AppComponent {
 5. app.module.ts 파일
     - 모듈을 생성할때는 기본적으로 @angular/core에 있는 NgModule를 import 하여 생성한다.
      - 생성한 모듈은 export를 이용하여 밖으로 내보낸다.
+     
 ``` javascript
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -64,13 +66,13 @@ export class AppModule { }
     - 비슷한 파일로는 .gitignore 파일이 있다.
     - example
         - 앵귤러 프로젝트에서 폴더를 생성한다.
-        - <img src="./../images/angular-add-folder.png"></img>
+        - <img src="./../assets/img/angular-trees/angular-add-folder.png">
         - git status 명령으로 트래킹을한다.
-        - <img src="./../images/angular-git-status-no-change.png"></img>
+        - <img src="./../assets/img/angular-trees/angular-git-status-no-change.png">
         - 폴더 안에 .gitKeep 파일을 생성한다.
-        - <img src="./../images/angular-add-folder-gitkeep.png"></img>
+        - <img src="./../assets/img/angular-trees/angular-add-folder-gitkeep.png">
         - git status 명령으로 트래킹을 한다.
-        - <img src="./../images/angular-git-status-change.png"></img>
+        - <img src="./../assets/img/angular-trees/angular-git-status-change.png">
 2. 해당 프로젝트에서 필요한 이미지 파일 등이 들어간다.
 
 ### environments 폴더
